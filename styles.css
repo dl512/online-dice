@@ -1,0 +1,56 @@
+html {
+    background-color: #28775B;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 60px;
+    color: darkred;
+}
+
+.dropdown {
+    height: 40px;
+    width: 100px;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.roll {
+    height: 80px;
+    width: 160px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 50px;
+    background-color: darkred;
+    color: white;
+}
+
+.label{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+
+.container {
+    display: block;
+}
+
+.row > div {
+    display: inline;
+}
+
+img {
+    width: 150px;
+    max-width: 25%;
+    margin: 5px;
+}

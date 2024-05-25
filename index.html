@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online-Dice</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Online Dice</h1>
+    <label class="label" for="numberOfDices">Number of dices:</label> 
+    <select class="dropdown" name="numberOfDices" id="numberOfDices"> 
+        <option value=0>Select</option> 
+        <option value=1>1</option> 
+        <option value=2>2</option> 
+        <option value=3>3</option> 
+        <option value=4>4</option>
+        <option value=5>5</option>
+        <option value=6>6</option>
+    </select>
+
+    <br>
+    <br>
+
+    <button class="roll">Roll</button>
+
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="dice dice-1"><img class="dicePic-1" src="./images/dice1.png"></div>
+            <div class="dice dice-2"><img class="dicePic-2" src="./images/dice1.png"></div>
+            <div class="dice dice-3"><img class="dicePic-3" src="./images/dice1.png"></div>    
+        </div>
+        <div class="row">
+            <div class="dice dice-4"><img class="dicePic-4" src="./images/dice1.png"></div>
+            <div class="dice dice-5"><img class="dicePic-5" src="./images/dice1.png"></div>
+            <div class="dice dice-6"><img class="dicePic-6" src="./images/dice1.png"></div>    
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+
+</body>
+</html>
